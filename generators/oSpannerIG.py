@@ -18,7 +18,7 @@ import os
 import numpy as np
 import branch_gen
 import networkx as nx
-nt_data_path = 'D:/GIT/OriSpannerP/instances_32'
+nt_data_path = 'D:/GIT/OriSpannerP/instances_test'
 #instance_sizes = [4, 8, 16,32,64,128,256,512,1024,2048]
 instance_sizes = [32]
 #instance_sizes = [9, 17]
