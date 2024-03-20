@@ -16,8 +16,8 @@ Our Framework contains the following algorithms.
 
 # Installation
 Compile the source with  camke 
-cmake.
-make 
+cmake. </br>
+make </br>
 
 # Usage
 ./oriSpanner  -f <instance> [options]
