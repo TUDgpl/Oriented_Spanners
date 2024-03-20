@@ -13,6 +13,9 @@ def generate_branch(mod:tools.Model, dim, folder_s, instance_size, instance_num,
 
 def generate_instance(mod:tools.Model, dim, folder_s, file_s, instance_size, width, height,alpha=0):
     folder_name = "uniform_"+str(instance_size) 
+    folder_s_single = folder_s/folder_name
+    folder_s_single.mkdir( parents=True, exist_ok=True )
+    
     file_path = folder_s/folder_name/ file_s
     print(file_path)
     with file_path.open("w") as f:
