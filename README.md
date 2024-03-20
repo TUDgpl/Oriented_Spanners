@@ -1,6 +1,6 @@
 Oriented Spanners of 1D Point Sets
 
-Github Page: https://github.com/TUDgpl/OriSpanners
+Github Page: https://tudgpl.github.io/Oriented_Spanners/
 # Requirements
 <ol>
 <li> Glucose solver : https://github.com/audemard/glucose/</li>
