@@ -5,6 +5,7 @@ Github Page: https://tudgpl.github.io/Oriented_Spanners/
 <ol>
 <li> Glucose solver : https://github.com/audemard/glucose/</li>
 <li>  g++ >15.0 </li>
+ <li>  boost >.17.5 </li>
 </ol>
 # Description
 Our Framework contains the following algorithms.
