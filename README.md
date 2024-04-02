@@ -21,7 +21,7 @@ cmake. </br>
 make </br>
 
 # Usage
-./oriSpanner  -f <instance> [options]
+./oriSpanner  -f \<instance\> [options]
 
 --help, -h : output this help</br>
 --algorithm, -a : algorithm in use (see options below) </br>
