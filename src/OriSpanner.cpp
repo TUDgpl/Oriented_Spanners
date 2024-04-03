@@ -65,7 +65,9 @@ int main(int argc, char* argv[]) {
 		test_solver<Sat1P>();
 		return 0;
 	}
-
+	cerr << " Error: algorithm type "<<Algo_t << " can not be recognized " << endl;
+	printInitUsage();
+	exit(1);
 	return -1;
 }
 
