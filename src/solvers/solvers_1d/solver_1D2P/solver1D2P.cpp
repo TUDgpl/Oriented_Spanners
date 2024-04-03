@@ -7,7 +7,6 @@
 
 
 void Solver_1D2P::outputMeasures() {
-    std::cout << "Hello world" << std::endl;
     // page 0
     for (auto i : page_0) {
         measures.addElement("page_0", std::to_string(i.first), std::to_string(i.second));
