@@ -18,6 +18,10 @@ Our Framework contains the following algorithms.
 # Installation
 Compile the source with camke </br> 
 make </br>
+Default Paths:</br>
+   ├── build                   # Compiled files </br>
+    ├── src                    # excutable files OriSpanner, glucose-simp </br>
+
 
 # Usage
 ./oriSpanner  -f \<instance\> [options]
