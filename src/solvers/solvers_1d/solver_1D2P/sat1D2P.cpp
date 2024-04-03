@@ -411,7 +411,7 @@ RationalNumber Sat2P::solve() {
         }
     }
     assert(best_od <= teo_g);
-    printf("Sat2P solved with dilation %lld, %lld. \n", best_od.numerator(),best_od.denominator());
+    printf("Sat2P solved with dilation %lld/%lld. \n", best_od.numerator(),best_od.denominator());
     set_pages();
     return best_od;
 }
