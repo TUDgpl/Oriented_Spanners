@@ -19,11 +19,9 @@ void test_solver(){
 	// set solver
 	if (true) {
 		RationalNumber od = S.solve();
-		S.debug();
 		S.output(od);
 		measures.addElement("info", "solver", Algo_t);
 		measures.addElement("performance", "dilation", to_string(od));
-		S.outputMeasures();
 		outputMeasure(".json");
 		S.draw();
 	}
