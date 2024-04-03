@@ -316,7 +316,7 @@ RationalNumber Sat2P::read_solution(bool only_short, RationalNumber test_v) {
     solution_file.close();    
     set_pages();
     RationalNumber od = solution.get_dilation(pVector);
-    std::cout << "get dilation: " << od << std::endl;
+    //std::cout << "get dilation: " << od << std::endl;
     return od;
 };
 
