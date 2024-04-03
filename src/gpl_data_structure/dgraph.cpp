@@ -152,7 +152,7 @@ RationalNumber DGraph::get_dilation(const vector<RationalNumber>& pVector) {
         }
         tmax = max(tmax, tmin);
     }
-    std::cout << "(" << index_i << "," << index_j << ")" << std::endl;
+    //std::cout << "(" << index_i << "," << index_j << ")" << std::endl;
     return tmax;
 };
 
