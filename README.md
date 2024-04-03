@@ -19,8 +19,10 @@ Our Framework contains the following algorithms.
 Compile the source with camke </br> 
 make </br>
 Default Paths:</br>
-├── build                   # Compiled files </br>
-&nbsp ├── src                    # excutable files OriSpanner, glucose-simp </br>
+├── src <br />
+├── doc <br />
+├── build <br />
+  ├── src  # excutable files OriSpanner, glucose-simp <br />
 
 
 
