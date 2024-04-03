@@ -301,5 +301,5 @@ void DGraph::get_longest_edge(const vector<RationalNumber>& pVector) {
             }
         }
     }
-    std::cout << "The longest edge: (" << index_s << ", " << index_t <<") with length: "<< max_len<< std::endl;
+    //std::cout << "The longest edge: (" << index_s << ", " << index_t <<") with length: "<< max_len<< std::endl;
 };
