@@ -98,6 +98,5 @@ void jsonM::output(const char* outfolder, const char* appendix, const char* outF
 		std::cerr << "Exception opening file: " << std::strerror(errno) << "\n";
 	}
 	ofs << jObject;
-	cout << jObject;
 	ofs.close();
 }
