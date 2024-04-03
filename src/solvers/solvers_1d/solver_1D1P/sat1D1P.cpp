@@ -231,7 +231,7 @@ RationalNumber Sat1P::solve() {
         }
     }
     assert(best_od <= teo_g);
-    printf("Sat1P solved with dilation %lld, %lld. \n", best_od.numerator(),best_od.denominator());
+    printf("Sat1P solved with dilation %lld/%lld. \n", best_od.numerator(),best_od.denominator());
     return best_od;
 }
 
