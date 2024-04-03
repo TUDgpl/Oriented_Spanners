@@ -103,13 +103,6 @@ void parseInitOptions(int argc, char* argv[]) {
 		measures.addElement("info", "algo_type", Algo_t);
 	}
 };
-void printInitOptions() {
-	printf("dynaMIS Initialization options \n");
-	cout << "file:" << Input_file_s << endl;
-	cout << "algorithm:" << Algo_t << "-" << endl;
-	cout << "result_folder:" << Result_folder_s << endl;
-}
-
 /*print the manual of the program*/
 void printInitUsage() {
 	cout << "\n--------oriSpanner, a orinted spanner solver by " << GREEN << "" << RESET << " -----------------\n";
