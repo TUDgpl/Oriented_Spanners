@@ -17,7 +17,6 @@ Our Framework contains the following algorithms.
 
 # Installation
 Compile the source with  camke 
-cmake. </br>
 make </br>
 
 # Usage
